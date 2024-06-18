@@ -1,0 +1,105 @@
+
+#intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0; /* Adjust padding as needed */
+  margin-top: 2rem;
+  background-color: black;
+}
+
+.introContent {
+  text-align: center;
+  max-width: 70rem; /* Adjust max-width as needed */
+  margin: 0 auto;
+}
+
+.backgroundIntroImg {
+  border-radius: 3rem; /* Makes the image round */
+  max-width: 100%; 
+  margin-top: 0; /* Adjust margin as needed */
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.hello {
+  font-size: 2em; /* Big font size */
+  font-weight: bold; /* Bold text */
+  /* color: rgb(192, 238, 8); Yellow color */
+}
+
+.introText {
+  font-size: 2em; /* Adjust size as needed */
+  margin-top: 1rem; /* Adjust spacing */
+  font-weight: bold; 
+}
+
+.introName {
+  color: rgb(192, 238, 8);
+}
+
+.introPara {
+  font-size: 1.2em; /* Adjust size as needed */
+  margin-top: 1rem; /* Adjust spacing */
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(244, 211, 0); /* Match navbar background */
+  color: black;
+  font-weight: 600;
+  padding: 1rem 2rem; /* Adjust padding as needed */
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 2rem; 
+  border-radius: 20rem;/* Adjust spacing */
+}
+
+.btnImg {
+  height: 10px; /* Example button image height */
+  margin-right: 10px; /* Example margin for image */
+}
+
+@media (max-width: 780px) {
+  /* Responsive adjustments for smaller screens */
+  #intro {
+    padding: 2rem 1rem; /* Adjust padding for smaller screens */
+    margin-top: 0;
+  }
+
+  .introContent {
+    max-width: 100%; /* Adjust width for smaller screens */
+  }
+
+  .backgroundIntroImg {
+    margin-top: 0; /* Adjust margin for smaller screens */
+  }
+
+  .hello {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .introText {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .introName {
+    color: yellow;
+  }
+
+  .introPara {
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+
+  .btn {
+    font-size: 1em; /* Adjust font size for smaller screens */
+    padding: 0.8rem 1.5rem; /* Adjust padding for smaller screens */
+    margin-top: 1.5rem; /* Adjust margin for smaller screens */
+    border-radius: 20rem;
+  }
+}
