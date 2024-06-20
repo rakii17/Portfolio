@@ -83,7 +83,7 @@
         text-align: center; 
     }
 
-    .navMenuItem:hover,
+    .navMenuItem:hover
     .active {
         padding-bottom: 0.2rem;
         border-bottom-width: 2px;
