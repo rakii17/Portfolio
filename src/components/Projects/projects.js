@@ -8,7 +8,7 @@ const projectData = [
     image: javaL,
     title: 'Blog Web Application',
     description: 'A RESTful API web service for a blog project. This API performs all the CRUD operations.',
-    features: ['Create, read, update, delete posts ', 'Comment management, Like management'],
+    features: ['Create, read, update, delete posts ', 'Comment and Like management'],
     techStack: ['ReactJS', 'NodeJS', 'MongoDB'],
     githubLink: 'https://github.com/yourusername/project1'
   },
@@ -16,27 +16,10 @@ const projectData = [
     image: instag,
     title: 'Foodelicious',
     description: 'A web service for a food restaurant webpage, designed to handle all the essential operations.',
-    features: ['Menu management, Order processing ', 'Reservation system, Review management'],
+    features: ['Menu management, Order processing ', 'Reservation and  Review management'],
     techStack: ['ReactJS', 'NodeJS', 'MongoDB'],
     githubLink: 'https://github.com/yourusername/project2'
-  },
-  {
-    image: javaL,
-    title: 'Project 3',
-    description: 'This is a description of project 2.',
-    features: ['Feature 1', 'Feature 2'],
-    techStack: ['HTML', 'CSS', 'React'],
-    githubLink: 'https://github.com/yourusername/project2'
-  },
-  {
-    image: instag,
-    title: 'Project 4',
-    description: 'This is a description of project 2.',
-    features: ['Feature 1', 'Feature 2'],
-    techStack: ['HTML', 'CSS', 'React'],
-    githubLink: 'https://github.com/yourusername/project2'
   }
-
 ];
 
 const Projects = () => {

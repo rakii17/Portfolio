@@ -73,6 +73,9 @@
   @media (max-width: 780px) {
     /* Responsive adjustments for smaller screens */
 
+    #skills {
+      padding: 30px;
+    }
     .skillDesc {
       font-size: 0.8rem;
       max-width: 80rem;
