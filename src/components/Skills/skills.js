@@ -23,7 +23,7 @@ const Skills = () => {
           <div className="skillBar">
             <img src={FigmaImg} alt="Figma" className="skillBarImg" />
             <div className="skillBarText">
-              <h2>Front-end Development</h2>
+              <h2>Front-end Dev</h2>
               <p>Click here to view works </p>
             </div>
           </div>
