@@ -81,7 +81,7 @@
   }
 
   .introContent {
-    max-width: 100%;
+    max-width: 90%;
     /* Adjust width for smaller screens */
   }
 
@@ -101,7 +101,7 @@
   }
 
   .introSubText {
-    font-size: 1rem;
+    font-size: 1.1rem;
     /* Adjust font size for smaller screens */
   }
 
@@ -110,7 +110,7 @@
   }
 
   .introPara {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     /* Adjust font size for smaller screens */
   }
 

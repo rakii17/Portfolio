@@ -20,7 +20,6 @@
   
   .skillDesc {
     font-size: 1.2em;
-    max-width: 70rem;
     padding-bottom: 200rem;
     color: white;
   }
@@ -73,22 +72,35 @@
   
   @media (max-width: 780px) {
     /* Responsive adjustments for smaller screens */
+
+    .skillDesc {
+      font-size: 0.8rem;
+      max-width: 80rem;
+    }
+
+    .skillBarImg {
+      width: 100%;
+      height: 4.5rem;
+      object-fit: cover;
+    }
+
     .skillBars {
       flex-direction: column;
       align-items: center;
     }
   
     .skillBar {
-      width: 90%;
-      margin: 10px 0;
+      width: 70%;
+      margin: 2px 0;
+      height: auto;
     }
   
     .skillBarText h2 {
-      font-size: 1.2em;
+      font-size: 0.9em;
     }
   
     .skillBarText p {
-      font-size: 0.9em;
+      font-size: 0.6em;
     }
   }
   
