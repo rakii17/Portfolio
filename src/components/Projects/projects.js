@@ -5,20 +5,20 @@ import instag from '../../assets/instag.png';
 
 const projectData = [
   {
-    image: javaL,
-    title: 'Blog Web Application',
-    description: 'A RESTful API web service for a blog project. This API performs all the CRUD operations.',
-    features: ['Create, read, update, delete posts ', 'Comment and Like management'],
-    techStack: ['ReactJS', 'NodeJS', 'MongoDB'],
-    githubLink: 'https://github.com/yourusername/project1'
-  },
-  {
     image: instag,
     title: 'Foodelicious',
     description: 'A web service for a food restaurant webpage, designed to handle all the essential operations.',
     features: ['Menu management, Order processing ', 'Reservation and  Review management'],
     techStack: ['ReactJS', 'NodeJS', 'MongoDB'],
-    githubLink: 'https://github.com/yourusername/project2'
+    githubLink: 'https://github.com/rakii17'
+  },
+  {
+    image: javaL,
+    title: 'Blog Web Application',
+    description: 'A RESTful API web service for a blog project. This API performs all the CRUD operations.',
+    features: ['Create, read, update, delete posts ', 'Comment and Like management'],
+    techStack: ['ReactJS', 'NodeJS', 'MongoDB'],
+    githubLink: 'https://github.com/rakii17/Blog-Web-Application'
   }
 ];
 

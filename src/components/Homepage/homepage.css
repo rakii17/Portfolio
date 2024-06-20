@@ -76,42 +76,35 @@
   /* Responsive adjustments for smaller screens */
   #intro {
     padding: 2rem 1rem;
-    /* Adjust padding for smaller screens */
     margin-top: 0;
   }
 
   .introContent {
     max-width: 90%;
-    /* Adjust width for smaller screens */
   }
 
   .backgroundIntroImg {
     margin-top: 0;
-    /* Adjust margin for smaller screens */
   }
 
   .hello {
     font-size: 1.5rem;
-    /* Adjust font size for smaller screens */
   }
 
   .introText {
     font-size: 1.5rem;
-    /* Adjust font size for smaller screens */
   }
 
   .introSubText {
     font-size: 1.1rem;
-    /* Adjust font size for smaller screens */
   }
 
   .introName {
-    color: yellow;
+    color: rgb(192, 238, 8);
   }
 
   .introPara {
     font-size: 0.8rem;
-    /* Adjust font size for smaller screens */
   }
 
   .btn {

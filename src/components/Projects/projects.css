@@ -47,6 +47,7 @@
     font-weight: bold;
     margin: 20px 0 10px 0;
     color: whitesmoke;
+    text-decoration: underline; 
 }
 
 .project-description {
@@ -70,7 +71,7 @@
 }
 
 .project-button {
-    background-color: #007bff;
+    background-color: #0d08ff;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -83,4 +84,56 @@
 
 .project-button:hover {
     background-color: #0056b3;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0 20px;
+        margin: 1rem 1rem;
+    }
+
+    .projectsTitle {
+        font-size: 2rem;
+        font-weight: bold;
+        color: yellow;
+        background-color: black;
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+    .project-card {
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0 1rem;
+    }
+
+    .project-title {
+        font-size: 1.6rem;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+    }
+
+    .project-features {
+        font-size: 0.8rem;
+        margin-left: 3rem;
+        margin-right: 3.7rem;
+    }
+
+    .project-button {
+        background-color: #0d08ff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin-top: 0.3rem;
+        margin-bottom: 1.5rem;
+        transition: background-color 0.2s;
+    }
 }

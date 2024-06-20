@@ -1,4 +1,4 @@
-/* Base styles */
+
 .navbar {
     background-color: black;
     top: 0;
@@ -44,14 +44,14 @@
 
 .navMenuItem:hover {
     padding-bottom: 0.3rem;
-    color: rgb(192, 238, 8);
-    border-bottom: 3px solid rgb(192, 238, 8);
+    color: yellow;
+    border-bottom: 3px solid yellow;
 }
 
 .active {
     padding-bottom: 0.5rem;
-    color: rgb(192, 238, 8);
-    border-bottom: 3px solid rgb(192, 238, 8);
+    color: yellow;
+    border-bottom: 3px solid yellow;
 }
 
 /* Media queries for mobile devices */
@@ -110,7 +110,7 @@
     .active {
         padding-bottom: 0.3rem;
         border-bottom-width: 2px;
-        color: rgb(192, 238, 8);
-        border-bottom: 3px solid rgb(192, 238, 8);
+        color: yellow;
+        border-bottom: 3px solid yellow;
     }
 }

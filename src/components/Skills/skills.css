@@ -15,7 +15,7 @@
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 20px;
-    color: yellow
+    color: yellow;
   }
   
   .skillDesc {
@@ -84,7 +84,8 @@
     .skillBarImg {
       width: 100%;
       height: 4.5rem;
-      object-fit: cover;
+      object-fit: contain;
+      margin-top: 1rem;
     }
 
     .skillBars {
