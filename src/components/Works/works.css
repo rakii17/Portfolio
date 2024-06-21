@@ -1,0 +1,82 @@
+
+.works-container {
+    padding: 20px;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+.work-section {
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 2rem auto;
+    border-radius: 2rem;
+    background-color: #1f1f1f; 
+    overflow: hidden;
+}
+
+.work-header {
+    padding: 10px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(72, 255, 255);
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0 4px 8px rgba(105, 96, 96, 0.1);
+}
+
+.work-details {
+    padding: 0 10rem;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    margin-bottom: 2rem ;
+}
+
+.work-details p {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+.work-details ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 0; 
+    list-style-position: inside; 
+    text-align: center; 
+}
+
+.work-details ul li {
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+
+.resp {
+    text-decoration: underline;
+}
+
+.role {
+    color: #90EE90;
+}
+
+.work-details a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.work-details a:hover {
+    text-decoration: underline;
+    text-decoration-color: #90EE90;
+    color: #90EE90;
+}

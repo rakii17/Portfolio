@@ -7,11 +7,8 @@
     margin-top: 0;
     margin-bottom: 3rem;
     width: 100%;
-    /* Ensures full width */
     max-width: 800px;
-    /* Adjust max-width as needed */
     margin: 0 auto;
-    /* Centers the container horizontally */
 }
 
 .studies-heading {
