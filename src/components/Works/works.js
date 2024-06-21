@@ -1,18 +1,11 @@
-// Works.js
-
 import React, { useState } from 'react';
 import './works.css';
 
 const Works = () => {
-  const [internshipOpen, setInternshipOpen] = useState(false);
-  const [certificatesOpen, setCertificatesOpen] = useState(false);
+  const [openSection, setOpenSection] = useState(null);
 
-  const toggleInternship = () => {
-    setInternshipOpen(!internshipOpen);
-  };
-
-  const toggleCertificates = () => {
-    setCertificatesOpen(!certificatesOpen);
+  const toggleSection = (section) => {
+    setOpenSection(openSection === section ? null : section);
   };
 
   return (
@@ -21,10 +14,10 @@ const Works = () => {
 
       {/* Internship section */}
       <div className="work-section">
-        <div className="work-header" onClick={toggleInternship}>
+        <div className="work-header" onClick={() => toggleSection('internship')}>
           Internship
         </div>
-        {internshipOpen && (
+        {openSection === 'internship' && ( // Updated conditional rendering
           <div className="work-details">
             <p> Company : Aqmenz Automation Private Limited </p>
             <p className='role'>Job Role: Web Developer Trainee</p>
@@ -41,10 +34,10 @@ const Works = () => {
 
       {/* Certificates section */}
       <div className="work-section">
-        <div className="work-header" onClick={toggleCertificates}>
+        <div className="work-header" onClick={() => toggleSection('certificates')}>
           Certificates
         </div>
-        {certificatesOpen && (
+        {openSection === 'certificates' && ( // Updated conditional rendering
           <div className="work-details">
             <ul>
               <li><a href="https://github.com/example" target="_blank" rel="noopener noreferrer">MySQL for Beginners</a></li>
@@ -55,7 +48,6 @@ const Works = () => {
           </div>
         )}
       </div>
-
     </div>
   );
 };
