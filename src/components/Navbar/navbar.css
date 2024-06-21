@@ -1,7 +1,4 @@
-html {
-    scroll-behavior: smooth;
-  }  
-
+ 
 .navbar {
     background-color: black;
     top: 0;
@@ -51,7 +48,7 @@ html {
     border-bottom: 3px solid yellow;
 }
 
-.active {
+.navMenuItem:active {
     padding-bottom: 0.5rem;
     color: yellow;
     border-bottom: 3px solid yellow;
