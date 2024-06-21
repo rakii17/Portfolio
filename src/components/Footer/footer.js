@@ -1,5 +1,5 @@
 import React from 'react';
-import './contact.css';
+import './footer.css';
 import githubImage from '../../assets/github.png';
 import linkedinImage from '../../assets/linkedin.png';
 import resumeImage from '../../assets/rcb.png';
@@ -10,7 +10,7 @@ const Contact = () => {
             <h1 className='contact-title'>Contact</h1>
             <div className="contact-content">
                 <div className="contact-left">
-                    <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+                    <p>Email: <a href="mailto:rakesh.717.02@gmail.com">rakesh.717.02@gmail.com</a></p>
                     <p>Phone: +1234567890</p>
                     <p>Location: City, Country</p>
                 </div>
