@@ -80,3 +80,46 @@
     text-decoration-color: #90EE90;
     color: #90EE90;
 }
+
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .works-container {
+        padding: 10px;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .work-section {
+        margin-bottom: 15px;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .work-header {
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+
+    .work-details {
+        padding: 0 1rem;
+    }
+
+    .work-details p {
+        font-size: medium;
+    }
+
+    .work-details ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .work-details ul li {
+        margin-left: 0.5rem;
+    }
+}

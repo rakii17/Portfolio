@@ -26,7 +26,7 @@ const Works = () => {
         </div>
         {internshipOpen && (
           <div className="work-details">
-            <p> Aqmenz Automation Private Limited </p>
+            <p> Company : Aqmenz Automation Private Limited </p>
             <p className='role'>Job Role: Web Developer Trainee</p>
             <p className='resp'>Key Responsibilities :</p>
             <ul>
