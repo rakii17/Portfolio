@@ -13,14 +13,14 @@ const studiesData = [
     title: "2nd PUC / 12th Std",
     year: "2020",
     college: "Sri Kongadiyappa Pre-University College",
-    percentage: "90%",
+    percentage: "89%",
     skills: "Python, Microsoft Excel"
   },
   {
     title: "SSLC / 10th Std",
     year: "2018",
     college: "Sri Devala Maharshi English High School",
-    percentage: "89%",
+    percentage: "90%",
     skills: "Linux, Microsoft Excel"
   }
 ];
