@@ -17,7 +17,7 @@ const Works = () => {
         <div className="work-header" onClick={() => toggleSection('internship')}>
           Internship
         </div>
-        {openSection === 'internship' && ( // Updated conditional rendering
+        {openSection === 'internship' && ( 
           <div className="work-details">
             <p> Company : Aqmenz Automation Private Limited </p>
             <p className='role'>Job Role: Web Developer Trainee</p>
@@ -37,7 +37,7 @@ const Works = () => {
         <div className="work-header" onClick={() => toggleSection('certificates')}>
           Certificates
         </div>
-        {openSection === 'certificates' && ( // Updated conditional rendering
+        {openSection === 'certificates' && ( 
           <div className="work-details">
             <ul>
               <li><a href="https://github.com/example" target="_blank" rel="noopener noreferrer">MySQL for Beginners</a></li>

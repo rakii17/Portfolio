@@ -3,6 +3,7 @@
     padding: 50px;
     background-color: black;
     text-align: center;
+    margin: 0rem auto;
   }
   
   .skillContent {
@@ -30,7 +31,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
   }
   
   .skillBar {
@@ -50,7 +51,7 @@
   
   .skillBarImg {
     width: 100%;
-    height: 150px;
+    height: 100px;
     object-fit: contain;
   }
   

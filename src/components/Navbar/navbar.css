@@ -1,5 +1,4 @@
- 
-.navbar {
+ .navbar {
     background-color: black;
     top: 0;
     height: 6rem;
@@ -48,12 +47,6 @@
     border-bottom: 3px solid yellow;
 }
 
-.navMenuItem:active {
-    padding-bottom: 0.5rem;
-    color: yellow;
-    border-bottom: 3px solid yellow;
-}
-
 /* Media queries for mobile devices */
 @media (max-width: 780px) {
     .navbar {
@@ -89,28 +82,5 @@
         border-bottom-width: 2px;
         color: rgb(192, 238, 8);
         border-bottom: 3px solid rgb(192, 238, 8);
-    }
-}
-
-/* Media queries for desktop view */
-@media (min-width: 769px) {
-    .navMenuItems {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        margin: 0 2rem; 
-    }
-
-    .navMenuItem {
-        margin: 0 1.5rem; 
-        font-size: x-large;
-    }
-
-    .navMenuItem:hover,
-    .active {
-        padding-bottom: 0.3rem;
-        border-bottom-width: 2px;
-        color: yellow;
-        border-bottom: 3px solid yellow;
     }
 }

@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navMenuItems">
-        <Link to="homepage" spy={true} smooth={true} offset={-100} duration={400} className="navMenuItem">Home</Link>
-        <Link to="skills" spy={true} smooth={true} offset={0} duration={600} className="navMenuItem">Skills</Link>
-        <Link to="projects" spy={true} smooth={true} offset={-100} duration={700} className="navMenuItem">Projects</Link>
-        <Link to="works" spy={true} smooth={true} offset={-150} duration={1200} className="navMenuItem">Works</Link>
-        <Link to="studies" spy={true} smooth={true} offset={-65} duration={1200} className="navMenuItem">Studies</Link>
-        <Link to="footer" spy={true} smooth={true} offset={-30} duration={800} className="navMenuItem">Contact</Link>
+        <Link activeClass="active" to="homepage" spy={true} smooth={true} offset={-100} duration={400} className="navMenuItem">Home</Link>
+        <Link activeClass="active" to="skills" spy={true} smooth={true} offset={0} duration={400} className="navMenuItem">Skills</Link>
+        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-100} duration={400} className="navMenuItem">Projects</Link>
+        <Link activeClass="active" to="works" spy={true} smooth={true} offset={-150} duration={400} className="navMenuItem">Works</Link>
+        <Link activeClass="active" to="studies" spy={true} smooth={true} offset={-65} duration={400} className="navMenuItem">Studies</Link>
+        <Link activeClass="active" to="footer" spy={true} smooth={true} offset={-30} duration={400} className="navMenuItem">Contact</Link>
       </div>
     </nav>
   );
