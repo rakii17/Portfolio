@@ -15,12 +15,6 @@
     z-index: 1000;
 }
 
-.logo {
-    object-fit: cover;
-    height: 4rem;
-    width: 4rem;
-}
-
 .navMenuItems {
     color: white;
     cursor: pointer;
@@ -55,11 +49,6 @@
         height: auto;
         padding: 1rem;
         justify-content: center; 
-    }
-
-    .logo {
-        height: 3rem;
-        width: 3rem;
     }
 
     .navMenuItems {
