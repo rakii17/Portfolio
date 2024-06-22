@@ -66,7 +66,7 @@
     color: whitesmoke;
   }
   
-  .skillBarText p {
+  .skillBarText p a {
     font-size: 1em;
     color: rgb(1, 252, 206);
   }
@@ -75,12 +75,13 @@
     /* Responsive adjustments for smaller screens */
 
     #skills {
-      padding: 30px;
+      padding: 25px;
+      max-width: 100%;
     }
     
     .skillDesc {
       font-size: 0.8rem;
-      max-width: 80rem;
+      max-width: 100rem;
     }
 
     .skillBarImg {

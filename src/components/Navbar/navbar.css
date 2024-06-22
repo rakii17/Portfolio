@@ -59,8 +59,8 @@
     }
 
     .navMenuItem {
-        margin: 0.5rem;
-        font-size: small;
+        margin: 0.2rem;
+        font-size:medium;
         flex: 1 1 auto; 
         text-align: center; 
     }
