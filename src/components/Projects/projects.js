@@ -1,11 +1,11 @@
 import React from 'react';
 import './projects.css';
-import javaL from '../../assets/javaL.png';
-import instag from '../../assets/instag.png';
+import food from '../../assets/food.jpg';
+import portfolio from '../../assets/portfolio.jpg';
 
 const projectData = [
   {
-    image: instag,
+    image: food,
     title: 'Foodelicious',
     description: 'Developed a dynamic web application for a food restaurant featuring Home, Menu, About, and Cart sections to enhance user experience and streamline order processing.',
     features: ['Interactive menu display with detailed descriptions and pricing.', 'User-friendly cart functionality for easy order management and checkout.'],
@@ -13,12 +13,12 @@ const projectData = [
     githubLink: 'https://github.com/rakii17'
   },
   {
-    image: javaL,
+    image: portfolio,
     title: 'Portfolio Website',
     description: 'Built a dynamic website showcasing my professional skills, projects, work experiences and more responsive.',
     features: ['Comprehensive sections for homepage, skills, projects, works and educational background.', 'User-friendly interface with smooth navigation and visually appealing design.'],
     techStack: ['ReactJS', 'JavScript', 'VS Code'],
-    githubLink: 'https://github.com/rakii17/Blog-Web-Application'
+    githubLink: 'https://github.com/rakii17/Portfolio'
   }
 ];
 

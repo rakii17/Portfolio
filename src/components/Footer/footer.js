@@ -16,12 +16,15 @@ const Contact = () => {
                     <p>Location: Bengaluru &#10084;&#65039;</p>
                 </div>
                 <div className="contact-right">
-                    <a href="https://github.com/rakii17" target="_blank" rel="noopener noreferrer">
-                        <img src={githubImage} alt="GitHub" className="contact-icon" />
-                    </a>
+                    
                     <a href="https://www.linkedin.com/in/rakesh-m-17j/" target="_blank" rel="noopener noreferrer">
                         <img src={linkedinImage} alt="LinkedIn" className="contact-icon" />
                     </a>
+
+                    <a href="https://github.com/rakii17" target="_blank" rel="noopener noreferrer">
+                        <img src={githubImage} alt="GitHub" className="contact-icon" />
+                    </a>
+
                     <a href={resume} target='_blank'>
                         <img src={resumeImage} alt="Resume" className="contact-icon" />
                     </a>
