@@ -40,10 +40,10 @@ const Works = () => {
         {openSection === 'certificates' && ( 
           <div className="work-details">
             <ul>
-              <li><a href="https://www.udemy.com/certificate/UC-512c0489-e8dd-4bfe-a1e3-8222ace20185/" target="_blank" rel="noopener noreferrer">JavaScript and jQuery for Beginners</a></li>
-              <li><a href="https://www.udemy.com/certificate/UC-433d4331-94e4-49b9-bce0-c228c03ec361/" target="_blank" rel="noopener noreferrer">SQL Tutorial - Certification Course</a></li>
-              <li><a href="https://www.udemy.com/certificate/UC-ebf26e25-8185-48db-866c-c70a48fd21f0/" target="_blank" rel="noopener noreferrer">Introduction to Business Analyst</a></li>
-              <li><a href="https://github.com/example" target="_blank" rel="noopener noreferrer">Microsoft Excel - Beginner to Advance
+              <li><a href="https://ude.my/UC-512c0489-e8dd-4bfe-a1e3-8222ace20185/" target="_blank" rel="noopener noreferrer">JavaScript and jQuery for Beginners</a></li>
+              <li><a href="https://ude.my/UC-433d4331-94e4-49b9-bce0-c228c03ec361/" target="_blank" rel="noopener noreferrer">SQL Tutorial - Certification Course</a></li>
+              <li><a href="https://ude.my/UC-ebf26e25-8185-48db-866c-c70a48fd21f0" target="_blank" rel="noopener noreferrer">Introduction to Business Analyst</a></li>
+              <li><a href="https://github.com/rakii17" target="_blank" rel="noopener noreferrer">Microsoft Excel - Beginner to Advance
               </a></li>
             </ul>
           </div>
