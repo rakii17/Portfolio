@@ -51,8 +51,9 @@
   
   .skillBarImg {
     width: 100%;
-    height: 100px;
+    height: 130px;
     object-fit: contain;
+    margin-top: 1rem;
   }
   
   .skillBarText {
@@ -86,7 +87,7 @@
 
     .skillBarImg {
       width: 100%;
-      height: 4.5rem;
+      height: 6rem;
       object-fit: contain;
       margin-top: 1rem;
     }
@@ -103,11 +104,11 @@
     }
   
     .skillBarText h2 {
-      font-size: 0.9em;
+      font-size: 1.2em;
     }
   
     .skillBarText p {
-      font-size: 0.6em;
+      font-size: 0.8em;
     }
   }
   

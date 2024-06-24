@@ -7,17 +7,17 @@ const projectData = [
   {
     image: instag,
     title: 'Foodelicious',
-    description: 'A web service for a food restaurant webpage, designed to handle all the essential operations.',
-    features: ['Menu management, Order processing ', 'Reservation and  Review management'],
-    techStack: ['ReactJS', 'NodeJS', 'MongoDB'],
+    description: 'Developed a dynamic web application for a food restaurant featuring Home, Menu, About, and Cart sections to enhance user experience and streamline order processing.',
+    features: ['Interactive menu display with detailed descriptions and pricing.', 'User-friendly cart functionality for easy order management and checkout.'],
+    techStack: ['ReactJS', 'JavScript', 'VS Code'],
     githubLink: 'https://github.com/rakii17'
   },
   {
     image: javaL,
-    title: 'Blog Web Application',
-    description: 'A RESTful API web service for a blog project. This API performs all the CRUD operations.',
-    features: ['Create, read, update, delete posts ', 'Comment and Like management'],
-    techStack: ['ReactJS', 'NodeJS', 'MongoDB'],
+    title: 'Portfolio Website',
+    description: 'Built a dynamic website showcasing my professional skills, projects, work experiences and more responsive.',
+    features: ['Comprehensive sections for homepage, skills, projects, works and educational background.', 'User-friendly interface with smooth navigation and visually appealing design.'],
+    techStack: ['ReactJS', 'JavScript', 'VS Code'],
     githubLink: 'https://github.com/rakii17/Blog-Web-Application'
   }
 ];

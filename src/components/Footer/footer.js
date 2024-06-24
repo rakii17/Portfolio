@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import githubImage from '../../assets/github.png';
 import linkedinImage from '../../assets/linkedin.png';
-import resumeImage from '../../assets/coder.png';
+import resumeImage from '../../assets/cv-pdf.png';
 import resume from '../../assets/Resume.pdf';
 
 const Contact = () => {
@@ -19,9 +19,7 @@ const Contact = () => {
                     <a href="https://github.com/rakii17" target="_blank" rel="noopener noreferrer">
                         <img src={githubImage} alt="GitHub" className="contact-icon" />
                     </a>
-                    <a href="
-https://www.linkedin.com/in/rakesh-m-17j/
-" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/rakesh-m-17j/" target="_blank" rel="noopener noreferrer">
                         <img src={linkedinImage} alt="LinkedIn" className="contact-icon" />
                     </a>
                     <a href={resume} target='_blank'>

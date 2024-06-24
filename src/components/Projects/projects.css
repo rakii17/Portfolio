@@ -23,7 +23,7 @@
     border-radius: 2rem;
     box-shadow: 0 4px 8px rgba(105, 96, 96, 0.1);
     width: 27rem;
-    margin: 0.6rem 1rem;
+    margin: 0rem 1rem;
     transition: transform 0.2s;
     overflow: hidden;
     height: auto;
@@ -105,10 +105,10 @@
         margin-bottom: 0;
       }
 
-    .project-card {
+    .project-card {     
         width: 100%;
         margin: 0.5rem 0;
-        padding: 0 1rem;
+        padding: 0 0.5rem;
     }
 
     .project-title {
