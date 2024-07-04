@@ -25,7 +25,7 @@ const Contact = () => {
                         <img src={githubImage} alt="GitHub" className="contact-icon" />
                     </a>
 
-                    <a href={resume} target='_blank'>
+                    <a href={resume} target='_blank' rel="noopener noreferrer">
                         <img src={resumeImage} alt="Resume" className="contact-icon" />
                     </a>
                 </div>
