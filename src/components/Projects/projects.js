@@ -1,9 +1,21 @@
 import React from 'react';
 import './projects.css';
 import food from '../../assets/food.jpg';
+import dataanalysis from '../../assets/data.jpg';
 import portfolio from '../../assets/portfolio.jpg';
 
 const projectData = [
+
+  {
+    image: dataanalysis,
+    title: 'Apple Store-Data Analysis',
+    description: 'Implemented Power BI features to turn raw data into actionable insights, supporting data-driven decisions for the Apple Superstore.',
+    features: [' Monitored sales performance over time to identify trends and patterns.', 'Analyzed sales data by region and state to highlight high and low-performing areas.'],
+    techStack: ['Power BI Desktop', 'Data Visualization','Kaggle'],
+    githubLink: 'https://github.com/rakii17/Super-Store-Data-Analysis '
+  }
+  ,
+
   {
     image: food,
     title: 'Foodelicious',
@@ -12,6 +24,7 @@ const projectData = [
     techStack: ['ReactJS', 'JavScript', 'VS Code'],
     githubLink: 'https://github.com/rakii17'
   },
+  
   {
     image: portfolio,
     title: 'Portfolio Website',

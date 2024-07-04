@@ -14,7 +14,7 @@ const Skills = () => {
           <div className="skillBar">
             <img src={FigmaImg} alt="Figma" className="skillBarImg" />
             <div className="skillBarText">
-              <h2>Front-end Dev</h2>
+              <h2>Data Analysis</h2>
               <p><a href="https://github.com/rakii17" target="_blank" rel="noopener noreferrer">
                  Click here to view works
                 </a></p>
@@ -24,7 +24,7 @@ const Skills = () => {
           <div className="skillBar">
             <img src={UiImg} alt="Ui" className="skillBarImg" />
             <div className="skillBarText">
-              <h2>Data Analysis</h2>
+              <h2>Frontend Dev</h2>
               <p><a href="https://github.com/rakii17" target="_blank" rel="noopener noreferrer">
                  Click here to view works
                 </a></p>
