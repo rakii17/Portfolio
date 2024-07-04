@@ -16,7 +16,7 @@
     background-color: black;
     text-align: center;
     margin-bottom: 0;
-  }
+}
 
 .project-card {
     background-color: rgb(18, 18, 18);
@@ -47,7 +47,7 @@
     font-weight: bold;
     margin: 20px 0 10px 0;
     color: whitesmoke;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .project-description {
@@ -103,9 +103,9 @@
         background-color: black;
         text-align: center;
         margin-bottom: 0;
-      }
+    }
 
-    .project-card {     
+    .project-card {
         width: 100%;
         margin: 0.5rem 0;
         padding: 0 0.5rem;
@@ -117,12 +117,15 @@
 
     .project-description {
         font-size: 0.9rem;
+        color: white;
+        margin-left: -1rem;
+        margin-right: -1rem;
     }
 
     .project-features {
         font-size: 0.8rem;
-        margin-left: 3rem;
-        margin-right: 3.7rem;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
     }
 
     .project-button {
