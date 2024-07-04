@@ -42,7 +42,7 @@ const Works = () => {
             <ul>
               <li><a href="https://ude.my/UC-433d4331-94e4-49b9-bce0-c228c03ec361/" target="_blank" rel="noopener noreferrer">SQL Tutorial - Certification Course</a></li>
 
-              <li><a href="https://github.com/rakii17" target="_blank" rel="noopener noreferrer">
+              <li><a href="https://training.foresightbi.com.ng/certificates/q4p9rri8b8" target="_blank" rel="noopener noreferrer">
               Data Visualization Essentials with Power BI
               </a></li>
 
