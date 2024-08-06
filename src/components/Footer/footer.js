@@ -3,7 +3,7 @@ import './footer.css';
 import githubImage from '../../assets/github.png';
 import linkedinImage from '../../assets/linkedin.png';
 import resumeImage from '../../assets/cv-pdf.png';
-import resume from '../../assets/Resume.pdf';
+import resume from '../../assets/Data_Analyst_Resume.pdf';
 
 const Contact = () => {
     return (
