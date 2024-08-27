@@ -58,7 +58,7 @@
 }
 
 .project-features {
-    list-style-type: disc;
+    list-style-type:none;
     margin-left: 3rem;
     margin-right: 3rem;
     color: white;

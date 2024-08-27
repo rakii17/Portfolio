@@ -2,6 +2,7 @@ import React from 'react';
 import './projects.css';
 import food from '../../assets/food.jpg';
 import portfolio from '../../assets/portfolio.jpg';
+import hr_analytics from '../../assets/business-analyst.png';
 import pyml from '../../assets/model.png'
 import store from '../../assets/store.png'
 import analysis from '../../assets/analysis.png'
@@ -11,11 +12,21 @@ const projectData = [
   {
     image: store,
     title: 'Apple Store-Data Analysis',
-    features: ['Implemented Power BI features to turn raw data into actionable insights, supporting data-driven decisions for the Apple Superstore.',' Monitored sales performance over time to identify trends and patterns.', 'Analyzed sales data by region and state to highlight high and low-performing areas.'],
-    techStack: ['Power BI Desktop', 'Data Visualization','Kaggle'],
+    features: ['Utilized Power BI to transform raw sales data into actionable insights, creating dynamic dashboards for regional performance analysis. Identified trends and underperforming areas, leading to targeted strategies that boosted revenue in low-performing regions. Monitored KPIs to refine business strategies.'],
+    techStack: ['Power BI Desktop', 'KPI Tracking','Kaggle'],
     githubLink: 'https://github.com/rakii17/Super-Store-Data-Analysis '
   }
   ,
+
+  {
+    image: hr_analytics,
+    title: 'HR Analytics',
+    features: ['Utilized Power BI to analyze over 1,400 employee records, focusing on attrition, job satisfaction, and salary distribution. Developed interactive dashboards that enhanced HR analytics, leading to improved data-driven decision-making, strategic planning, and increased organizational efficiency.'],
+    techStack: ['Power BI Desktop', 'Data Visualization','Data Cleaning'],
+    githubLink: 'https://github.com/rakii17/HR-Analytics '
+  }
+  ,
+
   {
     image: analysis,
     title: 'Flipkart Mobiles-Data Analysis',
@@ -27,7 +38,7 @@ const projectData = [
   {
     image: pyml,
     title: 'Software Effort Estimation',
-    features: ['Developed and implemented a machine learning-based software effort estimation model using AIML techniques, enhancing project timeline and resource predictions.', 'Led the creation of an advanced software effort estimation solution, applying machine learning principles to improve project management efficiency.'],
+    features: ['Developed a machine learning model for software effort estimation, enhancing project timeline predictions through data analysis and algorithm optimization. Led a team to implement AIML techniques, significantly improving resource allocation efficiency and project planning accuracy.'],
     techStack: ['Python', 'Matplotlib','Pandas', 'Numpy'],
     githubLink: 'https://github.com/rakii17/'
   }
